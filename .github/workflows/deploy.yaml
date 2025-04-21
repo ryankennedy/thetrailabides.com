@@ -20,7 +20,7 @@ jobs:
         run: npm run build
       - name: Upload
         id: deployment
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: ./_site
 
